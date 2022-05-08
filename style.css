@@ -1,0 +1,38 @@
+body{
+    background-size: cover;
+}
+
+#titulo{
+    font-size: 20px;
+    color: rgb(2, 25, 44);
+    font-weight: 600;
+    white-space: pre-line;
+    box-shadow: 4px 4px 4px grey;
+}
+#estatus{
+    font-size: 20px;
+   
+    box-shadow: 4px 4px 4px grey;
+    color: rgb(5, 31, 1);
+    font-weight: 600;
+    white-space: pre-line;
+}
+#cantidad{
+    font-size: 20px;
+
+    box-shadow: 4px 4px 4px grey;
+    color: rgb(31, 7, 1);
+    font-weight: 600;
+    white-space: pre-line;
+}
+canvas{
+    border: 5px;
+    border-radius: 10px;
+    border-color: #200220;
+    box-shadow: 6px 6px 6px rgb(82, 119, 221);
+    margin-top: 120px;
+    font-size: 20px;
+
+}
+
+

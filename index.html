@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Reconocimiento de imágenes usando CocoSsd</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!--RECONOCIMIENTO DE IMG DESDE ML5-->
+    <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+
+    <!---USO DE LIENZOS Y APRENDIZAJE AUTOMATICO CON P5-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+
+    <!----LIBRERIAS DE BOOTSTRAP-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <!--AGREGAMOS LA LIBRERIA DE ACTIVACION DE LA CAMARA-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+</head>
+<body background="fondo.jpg">
+    <center>
+
+        <h1 id="titulo" class="btn btn-info"> Identificación de Objetos usando CocoSsd</h1>
+        <p></p>
+        <span>
+            <h3 id="estatus" class="btn btn-success"> Estatus </h3>
+            <h3 id="cantidad" class="btn btn-danger">Cantidad de objetos </h3>
+        </span>
+        <p></p>
+        
+
+    </center>
+    <script src="main.js"></script>
+</body>
+</html>
